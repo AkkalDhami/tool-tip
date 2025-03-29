@@ -32,8 +32,10 @@ body {
   box-shadow: 0 0 12px 2px rgba(236, 232, 232, 0.712);
   padding: 10px;
   transition: 0.3s cubic-bezier(0.58, -0.2, 0.59, 1.21);
+  border: 2px solid transparent;
   &:hover {
-    box-shadow: 0 0 12px 2px rgb(255, 255, 255);
+    border: 2px solid var(--bg-color);
+    box-shadow: 0 0 16px 1px var(--bg-color);
   }
 }
 .tooltip img {
