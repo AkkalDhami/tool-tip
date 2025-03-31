@@ -17,6 +17,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .tooltip-container2 {
   margin-top: 100px;
@@ -39,9 +40,7 @@ body {
   margin-top: 120px;
   position: relative;
 }
-.tooltip-container3 .tooltip {
-  margin-left: 28px;
-}
+
 .tooltip-container3 .tooltip i {
   font-size: 38px;
   cursor: pointer;
@@ -53,6 +52,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 26px;
+  flex-wrap: wrap;
 }
 
 .tooltip {
