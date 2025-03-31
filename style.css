@@ -35,6 +35,18 @@ body {
   text-align: center;
   transition: 0.3s cubic-bezier(0.58, -0.2, 0.65, 1.62);
 }
+.tooltip-container3 {
+  margin-top: 120px;
+  position: relative;
+}
+.tooltip-container3 .tooltip {
+  margin-left: 28px;
+}
+.tooltip-container3 .tooltip i {
+  font-size: 38px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.58, -0.2, 0.65, 1.62);
+}
 .tooltip-container {
   display: flex;
   align-items: center;
@@ -109,4 +121,7 @@ body {
 .tooltip:hover p {
   bottom: 0;
   opacity: 0;
+}
+.tooltip:hover i {
+  color: var(--bg-color);
 }
