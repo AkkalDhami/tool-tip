@@ -47,12 +47,14 @@ body {
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.58, -0.2, 0.65, 1.62);
 }
+
 .tooltip-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 26px;
 }
+
 .tooltip {
   display: flex;
   align-items: center;
